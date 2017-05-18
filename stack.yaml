@@ -1,0 +1,14 @@
+resolver: lts-8.8
+
+packages:
+  - charlotte-scotty
+  - charlotte-wai
+
+extra-deps:
+  - scotty-cookie-0.1.0.3
+  - wai-3.0.3.0
+  - warp-3.0.13.1
+
+flags: {}
+
+extra-package-dbs: []
