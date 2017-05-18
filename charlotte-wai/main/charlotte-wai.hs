@@ -71,7 +71,7 @@ profile user session _req =
         htmlTemplate "Authorized"
 
 notFound :: Application'
-notFound req =
+notFound _req =
   return $
     html HTTP.status404 $
       htmlTemplate "Not found"

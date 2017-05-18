@@ -4,7 +4,6 @@ import           Charlotte.App
 
 import           Data.Monoid ((<>))
 import qualified Data.Text.Lazy as TL
-import qualified Data.Text.Lazy.Encoding as TL
 
 import qualified Network.HTTP.Types as HTTP
 
